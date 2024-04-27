@@ -1,0 +1,53 @@
+@charset="UTF-8"
+
+body{
+    color:blublue
+}
+
+body{
+   background: linear-gradient(to right, #1e1f3c34, #f2f2f2);}
+   h1,h2{
+       color:#333333;
+       text-align: center;
+       font-family: Times new roman;
+       
+  }
+  h3{
+      color:#gray;
+      font-family: Monospace;
+  }
+  list-lua{
+      list-style: none;
+      font-family: Times new roman;
+  }
+/* Reset para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para a lista bonita */
+.lista-bonita {
+  list-style: none; /* Remover os marcadores padrão da lista */
+  font-family: Arial, sans-serif; /* Escolha uma fonte agradável */
+  width: 340px; /* Largura da lista */
+}
+
+.lista-bonita li {
+  background-color: gray; /* Cor de fundo dos itens */
+  border-bottom: 1px solid #ddd; /* Linha separadora entre os itens */
+  padding: 10px; /* Espaçamento interno */
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+  color: white;
+ 
+}
+
+.lista-bonita li:hover {
+  background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o último item da lista para remover a linha separadora */
+.lista-bonita li:last-child {
+  border-bottom: none;
+}
